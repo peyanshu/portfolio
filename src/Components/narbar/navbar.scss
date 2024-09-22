@@ -1,0 +1,50 @@
+@import '../../app.scss' ;
+
+.navbar{
+    height: 100px;
+
+   .wrapper{
+    // background-color: aliceblue;
+    max-width: 880px;
+    padding-top: 18px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+@include mobile{
+  justify-content: flex-end;
+}
+
+      span{
+       font-weight: bold;
+
+      @include mobile{
+          display: none;
+       }
+}
+.social{
+  display: flex;
+  gap: 10px;
+
+     a{
+          width: 30px;
+          scale: 1.2;
+          padding-top: 15px;   
+
+     }
+    }
+}
+}
+.course{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     .box{
+          width: 200px;
+          height: 200px;
+          background: #fff;
+     }
+}

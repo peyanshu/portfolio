@@ -1,0 +1,81 @@
+.Portfolio{
+          position: relative;
+              .progress{
+            position: sticky ;
+            top: 0;
+            left:0; 
+            padding-top: 50px;
+            text-align: center;
+            color:orange;
+            font-size: 45px;
+            font-weight: 500;
+
+    .progressBar{
+            height: 6px;
+            background: #fff;
+    }
+  }
+}
+.container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           height: 100%;
+           overflow: hidden;
+          }
+          .wrapper{
+                    max-width: 1200px;
+                    height: 100%;
+                    margin:auto;
+                    display:flex;
+                    gap:20px;
+                    align-items: center;
+                    justify-content: center;
+                  }
+.imagecontainer{
+   height: 45%;
+   flex:1;
+   padding-left: 50px;
+   margin-top: 65px;
+   
+   img{
+     width: 90%;
+     height: 100%;                          
+     object-fit: cover;
+     border-radius: 10px;
+    }
+  }       
+ .textcontainer{
+          flex:1;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          margin-top: -40px;
+           h2{
+            font-size: 47px;
+            font-weight: 600;
+            text-transform: capitalize;
+           }
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        opacity: .8;
+      }            
+      button{
+        position: absolute;
+        background: orange;
+        padding: 3px 30px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #000;
+        align-items:left;
+        margin-top: 40%;
+       cursor: pointer;
+        
+
+      }
+ }           
+
+          

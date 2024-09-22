@@ -1,0 +1,128 @@
+@import '../../app.scss' ;
+
+.left{
+   position: relative;
+ 
+   h1{
+      position: absolute;
+      left: 15%;
+      top:8%;
+      font-size: 5vw;
+      font-weight: 600;
+      font-family: "Anta", sans-serif;
+
+     }
+     p{
+          font-family: gilroy;
+          position: absolute;
+          left: 15%;
+          top: 24%;
+          font-size: 16px;
+          font-weight: 400;
+          word-spacing: 3px;
+     }
+}
+.right{
+    position: relative;
+
+    @include mobile{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      
+    }
+     h1{
+          position: absolute;
+          left: 50%;
+          top:25%;
+          font-size: 1;
+          font-weight: 600;
+          text-transform: uppercase;
+     }  
+     .box{
+          position: absolute;
+          left: 50%;
+          top:38%;
+          font-size:12px;
+          padding: 3px 13px;
+          font-weight: 600;
+          border: 1.5px solid#fff;
+          border-radius: 50px;
+
+     }
+}
+
+#HTML{
+  position: absolute;
+ left: 23%;
+ top:35%; 
+}
+#CSS{
+   position: absolute;
+   left: 45%;
+   top:35%; 
+}
+#Javascript{
+   position: absolute;
+   left:69%;
+   top:35%; 
+}
+#MongoDb{
+   position: absolute;
+   left: 33%;
+   top:43%;    
+}
+#Express{
+   position: absolute;
+   left: 59%;
+   top:43%;    
+}
+
+#Node{
+   position: absolute;
+   left: 23%;
+   top:51%; 
+}
+#React{
+   position: absolute;
+   left: 45%;
+   top:51%; 
+}
+#Tailwind{
+   position: absolute;
+   left:69%;
+   top:51%; 
+}
+#Redux{
+   position: absolute;
+   left: 33%;
+   top:59%;    
+}
+#FramerMotion{
+   position: absolute;
+   left: 59%;
+   top:59%;    
+}
+       
+#c{
+    position: absolute;
+   left: 23%;
+   top:67%; 
+  }
+  #leadership{
+     position: absolute;
+     left: 45%;
+     top:67%; 
+  }
+  #git{
+     position: absolute;
+     left:69%;
+     top:67%; 
+  }
+  .box:hover{
+          background: rgb(231, 219, 87);
+          color: #000;
+          transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
